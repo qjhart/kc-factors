@@ -1,0 +1,26 @@
+prefix : <http://library.ucdavis.edu/schema#>
+prefix cups: <https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix xsd:   <http://www.w3.org/2001/XMLSchema#>
+prefix wd: <https://www.wikidata.org/wiki/>
+CONSTRUCT {
+  ?schedule a :GrowthSchedule;
+            :region wd:Q99;
+            rdfs:label ?label;
+            :cover ?crop;
+            :region ?region;
+            :startDate ?startDate;
+            :endDate ?endDate;
+           .
+}
+WHERE {
+
+  BIND(xsd:gMonthDay(concat("--",substr('00',1,2-strlen(?plantMonth)),?plantMonth,"-",substr('00',1,2-strlen(?plantDay)),?plantDay)) as ?startDate)
+  BIND(xsd:gMonthDay(concat("--",substr('00',1,2-strlen(?harvestMonth)),?harvestMonth,"-",substr('00',1,2-strlen(?harvestDay)),?harvestDay)) as ?endDate)
+
+  BIND(CONCAT("Typical California Growth Schedule for ",?Cropname) as ?label)
+	BIND(URI(CONCAT(str(cups:),?CropNumber)) as ?crop)
+	BIND(URI(CONCAT(str(cups:),"/dates/Q99/",?CropNumber)) as ?schedule)
+}

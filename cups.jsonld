@@ -1,0 +1,661 @@
+{
+  "@graph" : [ {
+    "@id" : "cups:1.01",
+    "@type" : "4stage_function",
+    "kc0" : "0.40",
+    "kc1" : "0.40",
+    "kcMid" : "1.15",
+    "lateT" : "1.0",
+    "midT" : "0.3",
+    "label" : "Alfalfa (cycle)"
+  }, {
+    "@id" : "cups:1.02",
+    "@type" : "4stage_function",
+    "kc0" : "0.65",
+    "kc1" : "0.65",
+    "kcMid" : "0.65",
+    "lateT" : "0.9",
+    "midT" : "0.19",
+    "label" : "Artichokes"
+  }, {
+    "@id" : "cups:1.03",
+    "@type" : "4stage_function",
+    "kc0" : "0.25",
+    "kc1" : "0.25",
+    "kcMid" : "1.00",
+    "lateT" : "0.95",
+    "midT" : "0.25",
+    "label" : "Asparagus"
+  }, {
+    "@id" : "cups:1.04",
+    "@type" : "4stage_function",
+    "kc0" : "0.70",
+    "kc1" : "0.15",
+    "kcMid" : "1.10",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Barley"
+  }, {
+    "@id" : "cups:1.05",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.10",
+    "kcMid" : "0.90",
+    "lateT" : "0.91",
+    "midT" : "0.4",
+    "label" : "Beans (pinto)"
+  }, {
+    "@id" : "cups:1.06",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.10",
+    "kcMid" : "1.00",
+    "lateT" : "0.91",
+    "midT" : "0.4",
+    "label" : "Beans (dry)"
+  }, {
+    "@id" : "cups:1.07",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.85",
+    "kcMid" : "1.00",
+    "lateT" : "0.89",
+    "midT" : "0.56",
+    "label" : "Beans (green)"
+  }, {
+    "@id" : "cups:1.08",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.90",
+    "kcMid" : "0.90",
+    "lateT" : "0.9",
+    "midT" : "0.6",
+    "label" : "Beets (early)"
+  }, {
+    "@id" : "cups:1.09",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.90",
+    "kcMid" : "0.90",
+    "lateT" : "0.9",
+    "midT" : "0.6",
+    "label" : "Beets (late)"
+  }, {
+    "@id" : "cups:1.10",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.80",
+    "kcMid" : "1.00",
+    "lateT" : "0.83",
+    "midT" : "0.5",
+    "label" : "Broccoli"
+  }, {
+    "@id" : "cups:1.11",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.85",
+    "kcMid" : "1.00",
+    "lateT" : "0.88",
+    "midT" : "0.63",
+    "label" : "Cabbage"
+  }, {
+    "@id" : "cups:1.12",
+    "@type" : "4stage_function",
+    "kc0" : "0.85",
+    "kc1" : "0.80",
+    "kcMid" : "0.95",
+    "lateT" : "0.83",
+    "midT" : "0.5",
+    "label" : "Carrots"
+  }, {
+    "@id" : "cups:1.13",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.95",
+    "kcMid" : "0.95",
+    "lateT" : "0.9",
+    "midT" : "0.4",
+    "label" : "Celery"
+  }, {
+    "@id" : "cups:1.14",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.60",
+    "kcMid" : "1.05",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Corn (grain)"
+  }, {
+    "@id" : "cups:1.15",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "1.00",
+    "kcMid" : "1.00",
+    "lateT" : "1.0",
+    "midT" : "0.45",
+    "label" : "Corn (silage)"
+  }, {
+    "@id" : "cups:1.16",
+    "@type" : "4stage_function",
+    "kc0" : "0.35",
+    "kc1" : "0.50",
+    "kcMid" : "0.95",
+    "lateT" : "0.85",
+    "midT" : "0.25",
+    "label" : "Cotton"
+  }, {
+    "@id" : "cups:1.17",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.85",
+    "kcMid" : "0.85",
+    "lateT" : "0.85",
+    "midT" : "0.47",
+    "label" : "Cucumber "
+  }, {
+    "@id" : "cups:1.18",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.85",
+    "kcMid" : "0.90",
+    "lateT" : "0.85",
+    "midT" : "0.54",
+    "label" : "Eggplant"
+  }, {
+    "@id" : "cups:1.19",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.25",
+    "kcMid" : "1.10",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Flax"
+  }, {
+    "@id" : "cups:1.20",
+    "@type" : "4stage_function",
+    "kc0" : "0.33",
+    "kc1" : "0.15",
+    "kcMid" : "1.10",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Grains (small)"
+  }, {
+    "@id" : "cups:1.21",
+    "@type" : "4stage_function",
+    "kc0" : "0.33",
+    "kc1" : "0.15",
+    "kcMid" : "1.05",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Grains (winter)"
+  }, {
+    "@id" : "cups:1.22",
+    "@type" : "4stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.20",
+    "kcMid" : "1.30",
+    "lateT" : "0.92",
+    "midT" : "0.73",
+    "label" : "Garlic"
+  }, {
+    "@id" : "cups:1.23",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.10",
+    "kcMid" : "1.00",
+    "lateT" : "0.91",
+    "midT" : "0.4",
+    "label" : "Lentil"
+  }, {
+    "@id" : "cups:1.24",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.80",
+    "kcMid" : "0.80",
+    "lateT" : "0.9",
+    "midT" : "0.65",
+    "label" : "Lettuce"
+  }, {
+    "@id" : "cups:1.25",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.75",
+    "kcMid" : "0.95",
+    "lateT" : "0.83",
+    "midT" : "0.5",
+    "label" : "Melon"
+  }, {
+    "@id" : "cups:1.26",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.30",
+    "kcMid" : "1.00",
+    "lateT" : "0.75",
+    "midT" : "0.36",
+    "label" : "Millet"
+  }, {
+    "@id" : "cups:1.27",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.85",
+    "kcMid" : "1.00",
+    "lateT" : "0.88",
+    "midT" : "0.63",
+    "label" : "Mustard"
+  }, {
+    "@id" : "cups:1.28",
+    "@type" : "4stage_function",
+    "kc0" : "0.33",
+    "kc1" : "0.15",
+    "kcMid" : "1.10",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Oats"
+  }, {
+    "@id" : "cups:1.29",
+    "@type" : "4stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.55",
+    "kcMid" : "1.20",
+    "lateT" : "0.75",
+    "midT" : "0.26",
+    "label" : "Onion (dry)"
+  }, {
+    "@id" : "cups:1.30",
+    "@type" : "4stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.55",
+    "kcMid" : "1.20",
+    "lateT" : "0.9",
+    "midT" : "0.7",
+    "label" : "Onion (green)"
+  }, {
+    "@id" : "cups:1.31",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "1.00",
+    "kcMid" : "1.00",
+    "lateT" : "0.83",
+    "midT" : "0.47",
+    "label" : "Peas"
+  }, {
+    "@id" : "cups:1.32",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.85",
+    "kcMid" : "1.00",
+    "lateT" : "0.85",
+    "midT" : "0.45",
+    "label" : "Peppers"
+  }, {
+    "@id" : "cups:1.33",
+    "@type" : "4stage_function",
+    "kc0" : "1.20",
+    "kc1" : "0.80",
+    "kcMid" : "1.05",
+    "lateT" : "0.86",
+    "midT" : "0.37",
+    "label" : "Rice"
+  }, {
+    "@id" : "cups:1.34",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.75",
+    "kcMid" : "0.85",
+    "lateT" : "0.85",
+    "midT" : "0.45",
+    "label" : "Radishes"
+  }, {
+    "@id" : "cups:1.35",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.70",
+    "kcMid" : "1.10",
+    "lateT" : "0.78",
+    "midT" : "0.45",
+    "label" : "Potatoes"
+  }, {
+    "@id" : "cups:1.36",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.25",
+    "kcMid" : "1.05",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Safflower"
+  }, {
+    "@id" : "cups:1.37",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.25",
+    "kcMid" : "1.05",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Sisal"
+  }, {
+    "@id" : "cups:1.38",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.50",
+    "kcMid" : "1.05",
+    "lateT" : "0.75",
+    "midT" : "0.42",
+    "label" : "Sorghum"
+  }, {
+    "@id" : "cups:1.39",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.90",
+    "kcMid" : "0.95",
+    "lateT" : "0.92",
+    "midT" : "0.67",
+    "label" : "Spinach"
+  }, {
+    "@id" : "cups:1.40",
+    "@type" : "4stage_function",
+    "kc0" : "0.52",
+    "kc1" : "0.70",
+    "kcMid" : "0.90",
+    "lateT" : "0.8",
+    "midT" : "0.5",
+    "label" : "Squash"
+  }, {
+    "@id" : "cups:1.41",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.70",
+    "kcMid" : "0.70",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Strawberries w/mulch"
+  }, {
+    "@id" : "cups:1.42",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.95",
+    "kcMid" : "1.15",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Sugarbeet"
+  }, {
+    "@id" : "cups:1.43",
+    "@type" : "4stage_function",
+    "kc0" : "0.40",
+    "kc1" : "0.75",
+    "kcMid" : "1.25",
+    "lateT" : "0.78",
+    "midT" : "0.44",
+    "label" : "Sugarcane"
+  }, {
+    "@id" : "cups:1.44",
+    "@type" : "4stage_function",
+    "kc0" : "0.20",
+    "kc1" : "0.40",
+    "kcMid" : "1.10",
+    "lateT" : "0.8",
+    "midT" : "0.45",
+    "label" : "Sunflower"
+  }, {
+    "@id" : "cups:1.45",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.70",
+    "kcMid" : "1.10",
+    "lateT" : "0.78",
+    "midT" : "0.45",
+    "label" : "Sweet Potatoes"
+  }, {
+    "@id" : "cups:1.46",
+    "@type" : "4stage_function",
+    "kc0" : "0.30",
+    "kc1" : "0.65",
+    "kcMid" : "1.10",
+    "lateT" : "0.8",
+    "midT" : "0.5",
+    "label" : "Tomatoes"
+  }, {
+    "@id" : "cups:1.47",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.90",
+    "kcMid" : "0.90",
+    "lateT" : "0.92",
+    "midT" : "0.67",
+    "label" : "Vegetables"
+  }, {
+    "@id" : "cups:1.48",
+    "@type" : "4stage_function",
+    "kc0" : "0.33",
+    "kc1" : "0.15",
+    "kcMid" : "1.10",
+    "lateT" : "0.75",
+    "midT" : "0.45",
+    "label" : "Wheat"
+  }, {
+    "@id" : "cups:1.49",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.75",
+    "kcMid" : "1.00",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Watermelon"
+  }, {
+    "@id" : "cups:2.01",
+    "@type" : "4stage_function",
+    "kc0" : "1.00",
+    "kc1" : "1.00",
+    "kcMid" : "1.00",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Alfalfa (annual)"
+  }, {
+    "@id" : "cups:2.02",
+    "@type" : "4stage_function",
+    "kc0" : "0.95",
+    "kc1" : "0.95",
+    "kcMid" : "0.95",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Improved Pasture"
+  }, {
+    "@id" : "cups:2.03",
+    "@type" : "4stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.80",
+    "kcMid" : "0.80",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Turfgrass (cool-season)"
+  }, {
+    "@id" : "cups:2.04",
+    "@type" : "4stage_function",
+    "kc0" : "0.60",
+    "kc1" : "0.60",
+    "kcMid" : "0.60",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Turfgrass (warm-season)"
+  }, {
+    "@id" : "cups:3.01",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.65",
+    "kcMid" : "1.15",
+    "lateT" : "0.9",
+    "midT" : "0.5",
+    "label" : "Almonds"
+  }, {
+    "@id" : "cups:3.02",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.80",
+    "kcMid" : "1.15",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Apple"
+  }, {
+    "@id" : "cups:3.03",
+    "@type" : "3stage_function",
+    "kc0" : "0.45",
+    "kc1" : "0.35",
+    "kcMid" : "0.80",
+    "lateT" : "0.75",
+    "midT" : "0.25",
+    "label" : "Wine Grapes"
+  }, {
+    "@id" : "cups:3.04",
+    "@type" : "3stage_function",
+    "kc0" : "0.45",
+    "kc1" : "0.35",
+    "kcMid" : "1.05",
+    "lateT" : "0.75",
+    "midT" : "0.25",
+    "label" : "Table Grapes"
+  }, {
+    "@id" : "cups:3.05",
+    "@type" : "3stage_function",
+    "kc0" : "0.35",
+    "kc1" : "0.80",
+    "kcMid" : "1.10",
+    "lateT" : "0.75",
+    "midT" : "0.25",
+    "label" : "Raisin Grapes"
+  }, {
+    "@id" : "cups:3.06",
+    "@type" : "3stage_function",
+    "kc0" : "0.30",
+    "kc1" : "1.00",
+    "kcMid" : "1.05",
+    "lateT" : "0.67",
+    "midT" : "0.22",
+    "label" : "Kiwifruit"
+  }, {
+    "@id" : "cups:3.07",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.65",
+    "kcMid" : "1.15",
+    "lateT" : "0.9",
+    "midT" : "0.5",
+    "label" : "Stone fruits"
+  }, {
+    "@id" : "cups:3.08",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.80",
+    "kcMid" : "1.15",
+    "lateT" : "0.75",
+    "midT" : "0.5",
+    "label" : "Walnuts"
+  }, {
+    "@id" : "cups:3.09",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.65",
+    "kcMid" : "1.20",
+    "lateT" : "0.9",
+    "midT" : "0.5",
+    "label" : "Peach"
+  }, {
+    "@id" : "cups:3.10",
+    "@type" : "3stage_function",
+    "kc0" : "0.55",
+    "kc1" : "0.65",
+    "kcMid" : "1.15",
+    "lateT" : "0.9",
+    "midT" : "0.5",
+    "label" : "Plum-Prune"
+  }, {
+    "@id" : "cups:4.01",
+    "@type" : "3stage_function",
+    "kc0" : "0.70",
+    "kc1" : "0.70",
+    "kcMid" : "0.70",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Avocado"
+  }, {
+    "@id" : "cups:4.02",
+    "@type" : "3stage_function",
+    "kc0" : "1.00",
+    "kc1" : "1.00",
+    "kcMid" : "1.00",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Grapefruit"
+  }, {
+    "@id" : "cups:4.03",
+    "@type" : "3stage_function",
+    "kc0" : "0.90",
+    "kc1" : "0.90",
+    "kcMid" : "0.90",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Lemon"
+  }, {
+    "@id" : "cups:4.04",
+    "@type" : "3stage_function",
+    "kc0" : "0.95",
+    "kc1" : "0.95",
+    "kcMid" : "0.95",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Date Palm"
+  }, {
+    "@id" : "cups:4.05",
+    "@type" : "3stage_function",
+    "kc0" : "1.15",
+    "kc1" : "1.15",
+    "kcMid" : "1.15",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Evergreen"
+  }, {
+    "@id" : "cups:4.06",
+    "@type" : "3stage_function",
+    "kc0" : "0.80",
+    "kc1" : "0.80",
+    "kcMid" : "0.80",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Olives"
+  }, {
+    "@id" : "cups:4.07",
+    "@type" : "3stage_function",
+    "kc0" : "1.00",
+    "kc1" : "1.00",
+    "kcMid" : "1.00",
+    "lateT" : "0.67",
+    "midT" : "0.33",
+    "label" : "Orange"
+  } ],
+  "@context" : {
+    "lateT" : {
+      "@id" : "http://library.ucdavis.edu/schema#lateT",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "midT" : {
+      "@id" : "http://library.ucdavis.edu/schema#midT",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "kc1" : {
+      "@id" : "http://library.ucdavis.edu/schema#kc1"
+    },
+    "kcMid" : {
+      "@id" : "http://library.ucdavis.edu/schema#kcMid"
+    },
+    "kc0" : {
+      "@id" : "http://library.ucdavis.edu/schema#kc0"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "@vocab" : "http://library.ucdavis.edu/schema#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "cups" : "https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/"
+  }
+}

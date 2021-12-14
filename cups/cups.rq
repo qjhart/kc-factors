@@ -1,0 +1,40 @@
+prefix : <http://library.ucdavis.edu/schema#>
+prefix cups: <https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix skos:  <http://www.w3.org/2004/02/skos/core#>
+prefix xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?crop a ?function;
+        rdfs:label ?CropName;
+        :kc0 ?KcAB;
+        :kcMid ?KcCD;
+        :kc1 ?KcE;
+        :rapidT ?rapidT;
+        :midT ?C;
+        :lateT ?D;
+#        :rapid-growth [:Kc ?KcAB; :tp ?B ];
+#        :mid-season [:Kc ?KcCD; :tp ?C ];
+#        :late-season [:Kc ?KcCD; :tp ?D ];
+        .
+}
+WHERE {
+  BIND(xsd:float(?seasonB)/100.0 as ?B)
+  BIND(xsd:float(?seasonC)/100.0 as ?C)
+  BIND(xsd:float(?seasonD)/100.0 as ?D)
+
+	BIND(URI(CONCAT(str(cups:),?CropNumber)) as ?crop)
+
+  OPTIONAL {
+    filter(?B != 0)
+    BIND(:4stage_function as ?function)
+    BIND(?B as ?rapidT)
+    }
+
+    OPTIONAL {
+    filter(?B = 0)
+    BIND(:3stage_function as ?function)
+    }
+
+}

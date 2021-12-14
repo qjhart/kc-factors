@@ -1,0 +1,130 @@
+@prefix : <http://library.ucdavis.edu/schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:Kc-ontology
+    a           owl:Ontology ;
+    rdfs:label  "Crop Coefficent (Kc) Factor Ontology"@en-US ;
+    .
+
+:Kc-function
+    a owl:Class ;
+    rdfs:label "Kc-Factor Function" ;
+    rdfs:commont "Function defining the typical Crop Coefficient, (Kc) for a coverage.  For any given date, specifies the expected k-factor" ;
+    .
+
+
+:4stage-function
+    a owl:Class ;
+    rdfs:label "4 Stage Function" ;
+    rdfs:comment "A crop kc-factor function defined with 4 points.  Typically used with row crops." ;
+
+    rdfs:subClassOf :Kc-function ;
+    rdfs:isDefinedBy :Kc-ontology ;
+    .
+
+:3stage-function
+    a owl:Class ;
+    rdfs:label "3 Stage Function" ;
+    rdfs:subClassOf :Kc-function ;
+    rdfs:isDefinedBy :Kc-ontology ;
+    .
+
+:Kc-point a owl:Class ;
+    rdfs:label "Tuple of a Crop Coefficient Factor (Kc) and a normalized Time Point (tp)." ;
+    .
+
+#https://docstore.mik.ua/orelly/xml/schema/ch04_05.htm
+:startDate a owl:Property ;
+    rdfs:label "Start Date" ;
+    rdfs:comment "Start Date. Can be a particular day, or a recurring Month Day combination.  In Kc funcrtions specifies the date of TimePeriod=0" ;
+
+#https://docstore.mik.ua/orelly/xml/schema/ch04_05.htm
+:endDate a owl:Property ;
+    rdfs:label "End Date" ;
+    rdfs:comment "End Date. Can be a particular day, or a recurring Month Day combination.  In Kc funcrtions specifies the date of TimePeriod=1" ;
+    .
+
+#https://docstore.mik.ua/orelly/xml/schema/ch04_05.htm
+:duration a owl:Property ;
+    rdf:label "Duration" ;
+    tdfs:example "p2m4d"
+    .
+
+# Properties
+
+:kc a owl:Property ;
+    rdfs:label "Crop Coefficient" ;
+    rdfs:comment "Crop Coefficient, specified as the amount of water required for a plant, when compared to the Potential Evapotranspiration, ETo" ;
+    .
+
+:kc0 a owl:Property ;
+    rdfs:label "Initial Kc" ;
+    rdfs:comment "Crop Coefficient (Kc), at time period start" ;
+    rdfs:subClassOf :kc ;
+    .
+
+:kc1 a owl:Property ;
+    rdfs:label "Crop Coefficient" ;
+    rdfs:comment "Crop Coefficient (Kc), at time period end" ;
+    rdfs:subClassOf :kc ;
+    .
+
+:kcMid a owl:Property ;
+    rdfs:label "Crop Coefficient" ;
+    rdfs:comment "Crop Coefficient (Kc) for mid-season" ;
+    rdfs:subClassOf :kc ;
+    .
+
+:tp a owl:Property ;
+    rdfs:label "Time point."
+    rdfs:comment "A specific point on the normalized growth scale [0-1]."
+    .
+
+:rapidT a owl:Property ;
+    rdfs:label "Rapid Growth Time Period Start"
+    rdfs:comment "For 4stage function, specify when rapid growth begins"
+    rdfs:subClassOf :tp ;
+    .
+
+:midT a owl:Property ;
+    rdfs:label "Mid-Season Time Period Start"
+    rdfs:comment "For 3stage and 4stage function, specify mid-season time period start"
+    rdfs:subClassOf :tp ;
+    .
+
+:lateT a owl:Property ;
+    rdfs:label "Late-Season Time Period Start"
+    rdfs:comment "For 3stage and 4stage function, specify end of mid-season and late season time period start."
+    rdfs:subClassOf :tp ;
+    .
+
+:plant a owl:Property ;
+    rdfs:label "Planting Point" ;
+    .
+
+:rapid-growth a owl:Property ;
+    rdfs:label "Rapid Growth Start." ;
+    rdfs:label "Starting Point for rapid growth, typically at about 10% Ground Cover (Cg)" ;
+    .
+
+:mid-season a owl:Property ;
+    rdfs:label "Midseason Growth Start" ;
+    .
+
+:late-season a owl:Property ;
+    rdfs:label "Late Season Curve Start" ;
+    .
+
+:leaf-out a owl:Property ;
+    rdfs:label "Leaf Out" ;
+    rdfs:comment "Start Point for Leaf Out of tree or Vine Crop" ;
+    .
+
+:leaf-drop a owl:Property ;
+    rdfs:label "Leaf Drop" ;
+    rdfs:comment "Starting point for Leaf Drop" ;
+    .

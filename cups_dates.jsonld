@@ -1,0 +1,518 @@
+{
+  "@graph" : [ {
+    "@id" : "cups:/dates/Q99/1.01",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.01",
+    "endDate" : "--07-20",
+    "region" : "wd:Q99",
+    "startDate" : "--06-20"
+  }, {
+    "@id" : "cups:/dates/Q99/1.02",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.02",
+    "endDate" : "--05-01",
+    "region" : "wd:Q99",
+    "startDate" : "--07-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.03",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.03",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.04",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.04",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.05",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.05",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--06-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.06",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.06",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--06-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.07",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.07",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.08",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.08",
+    "endDate" : "--09-20",
+    "region" : "wd:Q99",
+    "startDate" : "--03-20"
+  }, {
+    "@id" : "cups:/dates/Q99/1.09",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.09",
+    "endDate" : "--03-15",
+    "region" : "wd:Q99",
+    "startDate" : "--06-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.10",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.10",
+    "endDate" : "--07-01",
+    "region" : "wd:Q99",
+    "startDate" : "--03-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.11",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.11",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--08-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.12",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.12",
+    "endDate" : "--05-15",
+    "region" : "wd:Q99",
+    "startDate" : "--01-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.13",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.13",
+    "endDate" : "--01-15",
+    "region" : "wd:Q99",
+    "startDate" : "--09-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.14",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.14",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--05-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.15",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.15",
+    "endDate" : "--08-15",
+    "region" : "wd:Q99",
+    "startDate" : "--05-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.16",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.16",
+    "endDate" : "--10-15",
+    "region" : "wd:Q99",
+    "startDate" : "--05-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.17",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.17",
+    "endDate" : "--06-15",
+    "region" : "wd:Q99",
+    "startDate" : "--03-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.18",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.18",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.19",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.19",
+    "endDate" : "--07-31",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.20",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.20",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.21",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.21",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.22",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.22",
+    "endDate" : "--06-12",
+    "region" : "wd:Q99",
+    "startDate" : "--10-25"
+  }, {
+    "@id" : "cups:/dates/Q99/1.23",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.23",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--06-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.24",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.24",
+    "endDate" : "--07-15",
+    "region" : "wd:Q99",
+    "startDate" : "--03-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.25",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.25",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.26",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.26",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.27",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.27",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--08-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.28",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.28",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.29",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.29",
+    "endDate" : "--10-01",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.30",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.30",
+    "endDate" : "--08-01",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.31",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.31",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.32",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.32",
+    "endDate" : "--08-31",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.33",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.33",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--05-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.34",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.34",
+    "endDate" : "--05-01",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.35",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.35",
+    "endDate" : "--08-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.36",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.36",
+    "endDate" : "--07-31",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.37",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.37",
+    "endDate" : "--07-31",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.38",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.38",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.39",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.39",
+    "endDate" : "--01-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.40",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.40",
+    "endDate" : "--04-15",
+    "region" : "wd:Q99",
+    "startDate" : "--01-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.41",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.41",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--05-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.42",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.42",
+    "endDate" : "--09-30",
+    "region" : "wd:Q99",
+    "startDate" : "--03-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.43",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.43",
+    "endDate" : "--12-27",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.44",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.44",
+    "endDate" : "--09-10",
+    "region" : "wd:Q99",
+    "startDate" : "--05-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.45",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.45",
+    "endDate" : "--08-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-15"
+  }, {
+    "@id" : "cups:/dates/Q99/1.46",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.46",
+    "endDate" : "--08-31",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.47",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.47",
+    "endDate" : "--08-31",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.48",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.48",
+    "endDate" : "--05-31",
+    "region" : "wd:Q99",
+    "startDate" : "--11-01"
+  }, {
+    "@id" : "cups:/dates/Q99/1.49",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:1.49",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/2.01",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:2.01",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/2.02",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:2.02",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/2.03",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:2.03",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/2.04",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:2.04",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.01",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.01",
+    "endDate" : "--10-15",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.02",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.02",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.03",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.03",
+    "endDate" : "--11-01",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.04",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.04",
+    "endDate" : "--11-01",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.05",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.05",
+    "endDate" : "--11-01",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.06",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.06",
+    "endDate" : "--10-31",
+    "region" : "wd:Q99",
+    "startDate" : "--05-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.07",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.07",
+    "endDate" : "--10-15",
+    "region" : "wd:Q99",
+    "startDate" : "--03-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.08",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.08",
+    "endDate" : "--11-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.09",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.09",
+    "endDate" : "--10-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/3.10",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:3.10",
+    "endDate" : "--10-15",
+    "region" : "wd:Q99",
+    "startDate" : "--04-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.01",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.01",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.02",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.02",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.03",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.03",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.04",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.04",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.05",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.05",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.06",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.06",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  }, {
+    "@id" : "cups:/dates/Q99/4.07",
+    "@type" : "GrowthSchedule",
+    "cover" : "cups:4.07",
+    "endDate" : "--12-31",
+    "region" : "wd:Q99",
+    "startDate" : "--01-01"
+  } ],
+  "@context" : {
+    "endDate" : {
+      "@id" : "http://library.ucdavis.edu/schema#endDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gMonthDay"
+    },
+    "startDate" : {
+      "@id" : "http://library.ucdavis.edu/schema#startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gMonthDay"
+    },
+    "cover" : {
+      "@id" : "http://library.ucdavis.edu/schema#cover",
+      "@type" : "@id"
+    },
+    "region" : {
+      "@id" : "http://library.ucdavis.edu/schema#region",
+      "@type" : "@id"
+    },
+    "@vocab" : "http://library.ucdavis.edu/schema#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "cups" : "https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/",
+    "wd" : "https://www.wikidata.org/wiki/"
+  }
+}

@@ -1,0 +1,167 @@
+* Kc Factor Function Database
+
+  This project is meant to catalog some Crop Coefficient (Kc) functions for
+  certain crops and other cover, used primarily for consumptive use modeling.
+
+  The project includes a [[file:kc.ttl][definition of the terms]] used in the function definitions.
+
+  - [[file:cups.json]] and [[file:cups_dates.json]] DWR's Consumptive Use Programs default Agricultural
+    crop models, and California, default Time period dates.
+
+** California DWR's Land and Water Use
+
+  California's DWR, maintains a number of consumptive use models.  They have
+  standardized on a number of crops for that modeling.
+
+  The following descriptions are taken directly from DWR's [[https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/Agricultural-Water-Use-Models][Consumptive Use Program PLUS (CUP+)]]
+water use model.
+
+**** FIELD AND ROW CROP KC VALUES
+
+#+CAPTION: Field and Row Crop Kc Function
+#+NAME:   fig:field
+[[./cups/field.png]]
+
+Field and row crop Kc values are calculated using a method similar to that
+described by Doorenbos and Pruitt (1977).  A generalized curve is shown in
+Figure 1.  In their method, the season is separated into initial (date A-B),
+rapid (date B-C), midseason (date C-D), and late season (date D-E) growth
+periods.  Kc values are denoted KcA, KcB, KcC, KcD, and KcE at the ends of the
+A, B, C, D, and E growth dates, respectively.  During initial growth, the Kc
+values are a constant value, so KcA= KcB.  During the rapid growth period, when
+the canopy increases from about 10% to 75% ground cover, the Kc value increases
+linearly from KcB to KcC.  The Kc values are also at a constant value during
+midseason, so KcC= KcD.  During late-season, the Kc values decrease linearly
+from KcD to KcE at the end of the season.
+
+Doorenbos and Pruitt (1977) provide estimated number of days for each of the
+four growth periods to help identify the end dates of growth periods. However,
+because there are climate and varietal differences and because it is difficult
+for growers to know when the inflection points occur, irrigators often find this
+confusing.  To simplify this problem, CUP+ uses percentages of the season from
+planting to each inflection point rather than days in growth periods (see Figure
+1).  Irrigation planners need only enter the planting and end dates.  The
+intermediate dates are determined from the percentages, which are easily stored
+in a computer program.
+
+During initial growth of field and row crops, the default Kc value (Kc1) is used
+for KcA and KcB unless it is overridden by a Kc value based on rainfall or
+irrigation frequency. If a soil wetting-based Kc1 is desired, the irrigation or
+rainfall frequency is entered in the “Input_Output” worksheet. Then, a graph
+showing the Kc values curve corresponding to input wetting frequency versus mean
+ETo rate is shown in the chart “IrrigInitGrow” or “RainInitGrow,” respectively,
+for irrigation or rainfall entries.
+
+The values for KcC= KcD depend on (1) light interception differences, (2) crop
+morphology effects on turbulence, and (3) physiological differences between the
+crop and reference crop.  Some field crops are harvested before senescence, and
+there is no late season drop in Kc values (for example, silage corn and fresh
+market tomatoes).  Relatively constant annual Kc values are possible for some
+crops (for example, turfgrass and pasture) with little loss in accuracy.
+
+
+
+**** DECIDUOUS TREE AND VINE CROP KC VALUES
+
+#+CAPTION: Deciduous tree and vine crop Kc Function
+#+NAME:   fig:field
+[[./cups/tree.png]]
+
+Deciduous tree and vine crops, without a cover crop, have Kc value curves that
+are similar to those for field and row crops but without the initial growth
+period (Figure 2).  Default KcB, KcC= KcD= Kc2 and KcE= Kc3 values are given in
+the “Crop References” worksheet of the CUP+.  The season begins with rapid
+growth at leaf out when the Kc value increases from KcB to KcC.  The midseason
+period begins at approximately 70% ground cover.  Then, unless the crop is
+immature, the Kc value is relatively fixed between dates C and D until the onset
+of senescence.  For immature crops, canopy cover may be less than 70% during the
+midseason period.  If so, the Kc value will increase from KcC up to the KcD as
+the canopy cover increases.  The CUP program does account for Kc value changes
+of immature tree and vine crops.  During late season, the Kc value decreases
+from KcD to KcE, which occurs when the transpiration is near zero.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 2.  Hypothetical crop coefficient curve for deciduous tree and vine crops using percentage of the season to delineate growth dates. There is
+no initial growth period, so the season starts at leaf out on date B.
+
+
+** Schema
+:PROPERTIES:
+:header-args:sparql: :url http://sparql.org/sparql :format text/csv
+:END:
+
+   #+name: local-prefixes
+#+BEGIN_SRC sparql :no-tangle
+@prefix :      <http://library.ucdavis.edu/2020/kc#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos2: <http://www.w3.org/2008/05/skos#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix obo:   <http://purl.obolibrary.org/obo/> .
+#+END_SRC
+
+
+#+BEGIN_SRC sparql :noweb yes :no-tangle :format raw :wrap "SRC ttl"
+  <<prefixes>>
+  construct {
+    :quinn :is "great";
+           } WHERE {}
+#+END_SRC
+
+#+RESULTS:
+#+begin_SRC ttl
+HTTP/1.1 503 Service Unavailable
+Date: Fri, 10 Dec 2021 23:07:20 GMT
+Server: Apache
+Content-Length: 299
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>503 Service Unavailable</title>
+</head><body>
+<h1>Service Unavailable</h1>
+<p>The server is temporarily unable to service your
+request due to maintenance downtime or capacity
+problems. Please try again later.</p>
+</body></html>
+#+end_SRC
+
+#+name: kc-schema
+#+begin_src ttl :noweb yes :tangle kc_schema.ttl"
+
+
+#+end_src
+
+[[id:60b890c3-3fa9-43a5-9652-7ef0179a0445][Streaming Workflows]]
+
+Of these, [[https://nodered.org/][NodeRed]] seems to be an interesting visualization platform, with a
+pretty easy interface.  I don't know about the filtering algorithms, that they
+have, or the aggregations.
